@@ -5,6 +5,8 @@ using System.Windows;
 using Windows.UI.Xaml;
 #elif (XAMARIN)
 using Xamarin.Forms;
+#elif NET472_OR_GREATER
+using System.Windows;
 #endif
 
 namespace ValueConverters
