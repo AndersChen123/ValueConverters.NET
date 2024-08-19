@@ -40,7 +40,7 @@
     <DocumentationFile>bin\Release\ValueConverters.Forms.xml</DocumentationFile>
   </PropertyGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net48' ">
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
     <Reference Include="System" />
   </ItemGroup>
 
